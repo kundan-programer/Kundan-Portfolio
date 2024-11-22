@@ -420,7 +420,7 @@ nav .fa-solid {
     background: #ff004f;
     position: fixed;
     top: 0;
-    right: -200;
+    right: -200px;
     width: 200px;
     height: 100vh;
     padding-top: 50px;
@@ -435,10 +435,15 @@ nav .fa-solid {
 
   nav ul .fa-solid {
     position: absolute;
-    top: 25px;
+    top: 5%;
     left: 25px;
     cursor: pointer;
   }
+
+  nav .fa-bars {
+    margin-top: -10%;
+  }
+
 
   .sub-title {
     font-size: 40px;
