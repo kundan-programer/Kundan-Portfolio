@@ -411,10 +411,10 @@ nav .fa-solid {
   }
 
   .logo {
-    width: 160px;
-    height: 100%;
-    margin-top: -40px;
-    margin-left: -10px;
+    /* width: 160px; */
+    height: 40%;
+    /* margin-top: -40px; */
+    /* margin-left: -10px; */
     opacity: 0;
   }
 
