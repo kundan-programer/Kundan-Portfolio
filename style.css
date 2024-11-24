@@ -46,7 +46,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 18px;
   position: relative;
 }
@@ -71,9 +71,17 @@ nav ul li a:hover:after {
   font-size: 27px;
 }
 
+.heading-text p {
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
+
 .heading-text h1 {
   font-size: 40px;
-  margin-top: 25px;
+  /* margin-top: 20px; */
+  /* border: 2px solid red; */
+  margin-top: -8%;
+  margin-bottom: 8%;
 }
 
 .heading-text h1 span {
@@ -323,6 +331,11 @@ nav ul li a:hover:after {
   margin-top: 30px;
 }
 
+.contact-left p:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .contact-left p i {
   color: #ff0051;
   margin-right: 15px;
@@ -396,18 +409,34 @@ nav .fa-solid {
   display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
 
   #header {
     background-image: url(bglogo.jpg);
     height: auto;
     color: black;
     background-size: cover;
+    /* width: 100%; */
   }
 
   .heading-text {
     margin-top: 15%;
     font-size: 20px;
+  }
+
+  .heading-text p {
+    margin-top: -30%;
+    margin-bottom: 20%;
+    /* border: 2px ; */
+    /* border: 2px solid red; */
+  }
+
+  .heading-text h1 {
+    font-size: 40px;
+    /* margin-top: 20px; */
+    /* border: 2px solid red; */
+    margin-top: -10%;
+    margin-bottom: 8%;
   }
 
   .logo {
