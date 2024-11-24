@@ -399,15 +399,15 @@ nav .fa-solid {
 @media only screen and (max-width:600px) {
 
   #header {
-    background-image: url(photo.jpg);
+    background-image: url(bglogo.jpg);
     height: auto;
     color: black;
     background-size: cover;
   }
 
   .heading-text {
-    margin-top: 10%;
-    font-size: 16px;
+    margin-top: 15%;
+    font-size: 20px;
   }
 
   .logo {
@@ -423,6 +423,7 @@ nav .fa-solid {
     display: block;
     font-size: 25px;
     color: #000000;
+    /* margin-top: 10px; */
   }
 
   nav ul {
